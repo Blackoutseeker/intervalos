@@ -1,4 +1,5 @@
 import type { FC } from 'react'
+import Logo from './Logo'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
 
@@ -8,6 +9,7 @@ const Header: FC = () => {
       className="sticky flex top-0 items-center p-4 space-x-6
       shadow-md dark:shadow-none bg-[#d3d3d3] dark:bg-[#121212] z-10"
     >
+      <Logo props={{ className: 'fill-black dark:fill-white' }} />
       <div className="hidden md:flex">
         <h1 className="text-xl font-bold ml-4 dark:text-white">
           Estimação por intervalos
