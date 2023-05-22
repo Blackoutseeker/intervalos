@@ -3,6 +3,7 @@ import Logo from './Logo'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
 import ThemeButton from './ThemeButton'
+import BlankBoard from './BlankBoard'
 
 const Header: FC = () => {
   return (
@@ -28,6 +29,7 @@ const Header: FC = () => {
         <FaGithub className="fill-black dark:fill-white" size={20} />
       </Link>
       <ThemeButton />
+      <BlankBoard />
     </header>
   )
 }
