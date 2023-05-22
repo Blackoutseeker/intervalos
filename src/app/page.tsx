@@ -1,8 +1,12 @@
 import type { NextPage } from 'next'
+import Header from '@src/components/Header'
 
 const Home: NextPage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <>
+      <Header />
+      <main className="flex flex-col"></main>
+    </>
   )
 }
 
