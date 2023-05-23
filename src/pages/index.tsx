@@ -8,6 +8,7 @@ import Slide5 from '@src/components/Slides/Slide5'
 import Slide6 from '@src/components/Slides/Slide6'
 import Slide7 from '@src/components/Slides/Slide7'
 import Slide8 from '@src/components/Slides/Slide8'
+import Slide9 from '@src/components/Slides/Slide9'
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
         <Slide6 />
         <Slide7 />
         <Slide8 />
+        <Slide9 />
       </main>
     </>
   )
