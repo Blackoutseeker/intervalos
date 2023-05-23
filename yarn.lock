@@ -231,6 +231,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-latex@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/react-latex/-/react-latex-2.0.0.tgz#18caa4f2ff42160c5e3055b1b4d6b9ec31bee0f6"
+  integrity sha512-fk/hy2bMC8L6hB3Qgsbx5hCQUKwaZX2Cn06HyOGvbVjQAg8/EhEFanTefCmx26AVH2Pqny8orqWLF3ylEf0Ymg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18.2.6":
   version "18.2.6"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.6.tgz#5cd53ee0d30ffc193b159d3516c8c8ad2f19d571"
