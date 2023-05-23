@@ -5,6 +5,7 @@ import Slide2 from '@src/components/Slides/Slide2'
 import Slide3 from '@src/components/Slides/Slide3'
 import Slide4 from '@src/components/Slides/Slide4'
 import Slide5 from '@src/components/Slides/Slide5'
+import Slide6 from '@src/components/Slides/Slide6'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <Slide3 />
         <Slide4 />
         <Slide5 />
+        <Slide6 />
       </main>
     </>
   )
